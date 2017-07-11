@@ -1,15 +1,5 @@
-import java.io.IOException;
-import java.io.Reader;
-import java.util.List;
-
-import org.apache.ibatis.io.Resources;
 import org.apache.ibatis.session.SqlSession;
-import org.apache.ibatis.session.SqlSessionFactory;
-import org.apache.ibatis.session.SqlSessionFactoryBuilder;
-
-import com.orilore.entitys.Product;
 import com.orilore.entitys.UOrder;
-import com.orilore.mapper.ProductMapper;
 import com.orilore.mapper.UOrderMapper;
 import com.orilore.util.SessionUtil;
 
